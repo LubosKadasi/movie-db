@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/movie-db/static/js/main.e784a389.js",
+    "main.js": "/movie-db/static/js/main.a595e7e1.js",
     "static/js/317.58f49fc3.chunk.js": "/movie-db/static/js/317.58f49fc3.chunk.js",
     "static/js/420.90918811.chunk.js": "/movie-db/static/js/420.90918811.chunk.js",
     "static/js/622.764e20d0.chunk.js": "/movie-db/static/js/622.764e20d0.chunk.js",
     "static/js/294.eef23348.chunk.js": "/movie-db/static/js/294.eef23348.chunk.js",
     "static/js/756.b6d6ce95.chunk.js": "/movie-db/static/js/756.b6d6ce95.chunk.js",
     "index.html": "/movie-db/index.html",
-    "main.e784a389.js.map": "/movie-db/static/js/main.e784a389.js.map",
+    "main.a595e7e1.js.map": "/movie-db/static/js/main.a595e7e1.js.map",
     "317.58f49fc3.chunk.js.map": "/movie-db/static/js/317.58f49fc3.chunk.js.map",
     "420.90918811.chunk.js.map": "/movie-db/static/js/420.90918811.chunk.js.map",
     "622.764e20d0.chunk.js.map": "/movie-db/static/js/622.764e20d0.chunk.js.map",
@@ -15,6 +15,6 @@
     "756.b6d6ce95.chunk.js.map": "/movie-db/static/js/756.b6d6ce95.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e784a389.js"
+    "static/js/main.a595e7e1.js"
   ]
 }
