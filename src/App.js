@@ -47,7 +47,7 @@ function App() {
       <CssBaseline />
           <Container maxWidth="sm">
             
-            <Router>
+            <Router basename="/movie-db">
               <Navigation />
               <Suspense fallback={<div>Loading...</div>}>
                 <Routes>
