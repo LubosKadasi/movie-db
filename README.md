@@ -2,6 +2,8 @@
 
 Create a simple movie application in React. The application should consist of 3 pages with layout.
 
+[DEMO](https://luboskadasi.github.io/movie-db/)
+
 
 ### Movie search
 
