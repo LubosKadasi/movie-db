@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Movie Database
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create a simple movie application in React. The application should consist of 3 pages with layout.
 
-## Available Scripts
 
-In the project directory, you can run:
+### Movie search
 
-### `npm start`
+* Page should contain search input field with search button on the top of the page. ✔️
+* When user submits the search, all search results should be displayed under the search input field.  ✔️
+* Please consider paging or endless scrolling of search results. ✔️
+* After rediect to another page and go back, the last searching and results should be still visible with the last visible table page or scroll position. (Hint: use state management) 🔶 - 50% - keep search input value
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+API example, search for “Batman”:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+http://omdbapi.com/?apikey=[YOUR-API-KEY]&s=Batman
+```
 
-### `npm test`
+### Movie detail
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Page should contain all information for selected movie (title, year, genre, poster, etc.) 🔶 - 50% - just working example
+* Next to the title should be “star” icon. When User clicks on the icon, movie will be added to favourites. 🔶 - 50% - just working example
 
-### `npm run build`
+API example, search for concrete movie details:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+http://omdbapi.com/?apikey=[YOUR-API-KEY]&i=tt0372784
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### My favorite movies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Page should contain list of favourite movies. User should be able to navigate to movie detail and remove movie from favourites. 🔶 - 50% - just working example
 
-### `npm run eject`
+## Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Use OMDb API to fetch all necessary data - no backend required ✔️
+* Use up to date features of Ecmascript 6 or Typescript ✔️
+* Pick one open-source component library such as Material UI, Ant Design, etc. ✔️
+* Use react-router for page navigation ✔️
+* Use README.md to describe project and it’s scripts. 🔶 - 50%
+* Use any state/data management (redux, mobx, jotai, context api, etc.)✔️
+* Properly handle side effects and async calls (redux-saga, thunk, react-query, etc.) ✔️
+* Persist user`s favourite movies on client side 🔶 - 50% misssing add to localstrage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Nice to have
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Use Styled components, Emotion or CSS Modules with SASS for styling. ✔️
+* Tests for your code (100% codecoverage is not required)
+* Deploy your solution and share the link
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### BONUS: 
+After all, if coding is still fun :) you can show what you know and try to split application to 3 standalone chunks (Search, Detail, Favorites). Each chunk will fetch on demand when is needed and just once. (Hint: google „code splitting“ :) ) ✔️
 
-## Learn More
+### How to submit
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Upload your completed project to your Github/Bitbucket/Gitlab, and then paste a link to the repository below in the form along with any comments you have about your solution.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Recommendation
 
-### Code Splitting
+We know that this application is not the rocket science and some technical requirements can be overkill in real use cases similar to this. But we would like to know what is your skill with technologies usually used in real enterprice projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Notice that it is not all about React, there are more things what you can show to us. For example, consistency, error handling, design (look & feel), folders and files structure, HTML valid code, etc.
